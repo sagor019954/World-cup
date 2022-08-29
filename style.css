@@ -1,0 +1,152 @@
+  body {
+      font-family: 'Poppins';
+      margin: 0px;
+  }
+
+  .heading {
+      background-color: black;
+      width: 1321px;
+      height: 646px;
+      margin-top: 50px;
+      margin-left: 100px;
+      margin-right: 140px;
+      border-radius: 30px;
+  }
+
+  .heading-part {
+
+      display: flex;
+
+  }
+
+  .heading-info {
+      width: 50%;
+      padding-left: 110px;
+  }
+
+  .heading-info h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 70px;
+      line-height: 80px;
+      color: #FFFFFF
+  }
+
+  .heading-info p {
+      color: #FFFFFF;
+  }
+
+  .heading-player {
+      width: 50%;
+
+      padding-top: 20px;
+
+  }
+
+  .heading-player img {
+      width: 581px;
+      height: 613px;
+      padding-bottom: 0px;
+  }
+
+  .heading-link {
+      color: #FFFFFF;
+      width: 187px;
+      height: 56px;
+      background-color: red;
+      padding: 16px 25px;
+      border-radius: 5px;
+  }
+
+  .heading-info a {
+      text-decoration: none;
+  }
+
+  /* section part two */
+  .container {
+      width: 1321px;
+      margin-top: 150px;
+      margin-left: 100px;
+      margin-right: 140px;
+      display: flex;
+  }
+
+  .match {
+      background-color: black;
+      height: 312px;
+      width: 312px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 5px;
+  }
+
+  .match-item {
+      background-color: red;
+      width: 252px;
+      height: 64px;
+      color: #FFFFFF;
+      text-align: center;
+      margin: 20px;
+  }
+
+  /* player section  */
+  .player {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin-left: 20px;
+      row-gap: 10px;
+      column-gap: 5px;
+
+  }
+
+  .player-part {
+      border: 1px solid rgb(214, 208, 208);
+  }
+
+  .player-img img {
+      width: 100%;
+  }
+
+  .player-info {
+      padding-left: 10px;
+  }
+
+  button {
+      width: 100px;
+      height: 32px;
+      color: black;
+      border-radius: 5px;
+      margin-top: 10px;
+  }
+
+  .player-icon {
+      display: flex;
+      gap: 10px;
+      padding-bottom: 10px;
+  }
+
+  /* footer part */
+  footer {
+      background-color: black;
+      color: #FFFFFF;
+      margin-top: 100px;
+  }
+
+  footer h1 {
+      text-align: center;
+      padding: 50px;
+  }
+
+  hr {
+      border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .link {
+      display: flex;
+      justify-content: center;
+  }
+
+  .footer-link {
+      padding: 50px;
+  }
