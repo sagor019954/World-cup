@@ -134,8 +134,14 @@
       border: 1px solid rgb(236, 225, 225);
   }
 
+  .player-img {
+      display: flex;
+      padding: 10px;
+  }
+
   .player-img img {
       width: 100%;
+      display: flex;
   }
 
   .player-info {
@@ -172,7 +178,7 @@
       background-color: black;
       color: #FFFFFF;
       margin-top: 100px;
-      width: 100%;
+      /* width: 100%; */
   }
 
   footer h1 {
