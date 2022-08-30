@@ -1,9 +1,6 @@
   body {
       font-family: 'Poppins';
       margin: 0px;
-
-      justify-content: center;
-      text-align: center;
   }
 
   .heading {
@@ -52,17 +49,42 @@
       padding-bottom: 0px;
   }
 
+  .heading-link:hover {
+      height: 30px;
+      width: 160px;
+      text-align: center;
+
+  }
+
+  .heading-link:hover .fa-play {
+      visibility: visible;
+  }
+
+  .heading-link:hover .fa-arrow-up {
+      visibility: hidden;
+  }
+
+  .fa-play {
+      visibility: hidden;
+  }
+
   .heading-link {
       color: #FFFFFF;
-      width: 187px;
-      height: 56px;
+      width: 130px;
+      height: 20px;
       background-color: red;
       padding: 16px 25px;
       border-radius: 5px;
+      transition: width 0.5s linear, height 0.5s linear;
+  }
+
+  .heading-link a {
+      color: #FFFFFF;
   }
 
   .heading-info a {
       text-decoration: none;
+
   }
 
   /* section part two */
@@ -134,6 +156,17 @@
       padding-bottom: 5px;
   }
 
+  /* special part */
+  #btn {
+      background-color: rgb(35, 35, 156);
+      color: #FFFFFF;
+      height: 50px;
+      margin-top: 30px;
+      margin-left: 700px;
+      visibility: hidden;
+
+  }
+
   /* footer part */
   .footer {
       background-color: black;
@@ -160,6 +193,11 @@
       padding: 50px;
   }
 
+  .social-icon {
+      text-align: center;
+  }
+
+
   /* responsive part  */
   @media only screen and (min-width: 689px) and (max-width: 992px) {
       .container {
@@ -177,6 +215,11 @@
       .player {
           grid-template-columns: repeat(2, 1fr);
 
+      }
+
+      #btn {
+          visibility: visible;
+          margin-left: 300px;
       }
 
       footer {
